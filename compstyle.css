@@ -1,0 +1,334 @@
+.header-container { 
+    background-color: yellowgreen;
+ height: 15vh; 
+ border-bottom: 2px white;
+ align-items: center;
+ display: flex; 
+ flex-direction: row;
+ justify-content: space-around;
+ box-shadow: 5px 5px 30px grey;
+ }
+ 
+ .nav-bar{
+ margin-left: 10vw;
+ }
+ 
+ .nav-bar ul{
+ list-style-type: none; 
+ }
+ 
+ .nav-bar ul li{ 
+ display: inline;
+ padding: 1em;
+ }
+ 
+ .nav-bar ul li a{
+ text-decoration: none;
+ color: white;
+ }
+ 
+ .nav-bar ul li a:hover{
+ color: coral; 
+ border-bottom: 1px solid white;
+ padding-bottom: 1em;
+ }
+ 
+ button{
+ background: white; 
+ color: black;
+ border: 2px solid black;
+ padding: 1em; 
+ width: 7vw; 
+ border-radius: 7px;
+ }
+ 
+ button:hover{
+ background:white;
+ text-decoration-color: grey;
+ color: coral;
+ border: 2px solid coral;
+ padding: 1em;
+ width: 7vw;
+ border-radius: 7px;
+ }
+ 
+ 
+ .first {
+ background-size: auto;    
+ background-image: url('first.png'); 
+ background-size: 2000px 400px; 
+ text-align: left;
+ height:70vh;
+ font-size: 30px;;
+ }
+ .first p{
+     color:white;
+ }
+ .button1{
+     width:150;
+     border-color: lightseagreen;
+     background-color:lightseagreen;
+ }
+ 
+ .side{
+    background-color:orange; 
+    background-image: url('fly.png'); 
+    background-size: 1800px 400px; 
+ }
+ .side button{
+     align-items:left;
+ }
+ .side table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 10%;
+    }
+    td{
+    border: none;
+    text-align: left;
+    text-decoration: rgb(134, 125, 125);
+    padding:8px;
+    }
+    .button2{
+        width:10%;
+        background-color: orange;
+    }
+    .button2:hover{
+      width:10%;
+      background-color:lightyellow;
+    }
+ .side1 { 
+ background-image: url('ant.png'); 
+ background-size: 2000px 400px; 
+ text-align: right;
+ height: 70vh;
+ }
+ .table1{
+font-family: Arial, Helvetica, sans-serif;
+width: 10%;
+ }
+.table1 td{
+border: none;
+text-align: right;
+text-decoration: white;
+padding:8px;
+}
+.button2{
+    background-color:orange;
+    border:solid orange;
+}
+.buton2:hover{
+    background-color: palegoldenrod;
+}
+.button3{
+    background-color:lightskyblue;
+    border:solid lightskyblue;
+    align-items: right;
+}
+.button3:hover{
+    background-color: palegoldenrod;
+}
+.button4{
+    background-color:purple;
+    border:solid purple;
+    align-items: right;
+}
+.button4:hover{
+    background-color:purple;
+    border:solid lightskyblue;
+}
+.button5{
+    background-color:black;
+    border:1px solid white;
+    color: white;
+    align-items: left;
+    padding:5px 5px;
+}
+.button5:hover{
+    background-color:white;
+    border:solid white;
+    padding:5px 5px;
+}
+.button6{
+    background-color:brown;
+    color: white;
+    border:brown;
+    align-items: left;
+    padding:5px 5px;
+}
+.button6:hover{
+    background-color:white;
+    border:solid white;
+    padding:5px 5px;
+}
+.side2 {
+    background-color: purple;
+    background-size: 2500px 400px; 
+    text-align: right;
+    height: 70vh;
+    color: white;;
+    }
+    .table1{
+   font-family: Arial, Helvetica, sans-serif;
+   width: 10%;
+   color:white;
+   align-items: right;
+    }
+   .table1 td{
+   border: none;
+   text-align: right;
+   text-decoration: white;
+   padding:8px;
+   }
+ .side3 h1{
+ color:black;
+ align-items: center;
+ font-style:italic;
+ font-size: 2em; 
+ }
+ .side3 p{
+ color: black;
+ align-items: center;
+ font-style:italic;
+ font-size: 1.5em;
+ }
+ .part1{
+ background-color: white;
+ display: flex;
+ flex-direction: column; 
+ padding-bottom: 5vh;
+ padding-top: 5vh;
+ }
+ .part2{
+    background-color: white;
+    display: flex;
+    flex-direction: column; 
+    padding-bottom: 5vh;
+    padding-top: 5vh;
+    }
+ 
+ .column {
+   float: left;
+   width: 30.33%;
+   padding: 10px;
+   padding-bottom: 5px;
+ }
+ 
+ .column img{
+ height: 35vh;
+ width:20vw;
+ padding-top: 2.5em;
+ }
+ 
+ .column img:hover{
+ height: 35vh;
+ width:20vw;
+ padding-bottom: 2.5em;
+ opacity: 0.5;
+ }
+ 
+ .column h3{
+ color: black;
+ font-style: bold;
+ font-size: 1.5em;
+ padding: 1em;
+ }
+ 
+ .column h5{
+ color: white;
+ font-style: bold;
+ font-size: 1.5em;
+ padding:1em;
+ }
+ 
+ .row::after {
+   content: "";
+   clear: both;
+   display: table;
+   overflow: hidden;
+ }
+ .side4 {
+    color:white;
+    background-color:black;
+    align-items: center;
+    font-style:italic;
+    font-size: 1.5em;
+    }
+.side6{
+    background-color: brown;
+    padding:200 200;
+    align-items: left;
+}    
+.side6 h1{
+        color:black;
+        align-items: center;
+        font-style:italic;
+        font-size: 2em; 
+        }
+        .side3 p{
+        color: black;
+        align-items: center;
+        font-style:italic;
+        font-size: 1.5em;
+        }
+ 
+ .myImage {
+   float: right;
+   height: 275px;
+   width: 555px;
+   font-family: Veranda;
+ }
+ 
+ .myImage:hover{
+   float: right;
+   height: 275px;
+   width: 550px;
+   font-family: Veranda;
+ }
+ .myImage1 {
+    float: left;
+    height: 270px;
+    width: 500px;
+    font-family: Veranda;
+  }
+  
+  .myImage1:hover{
+    float: left;
+    height: 270px;
+    width: 500px;
+    font-family: Veranda;
+  }
+ .heading {
+   float:right;
+   padding: 4em;
+   font-style:italic;
+   font-size:2em;
+ }
+ 
+ .heading:hover{
+   float:right;
+   padding: 3em;
+   font-style:italic;
+   font-size:2.3em;
+   color:brown;
+ }
+ .empty
+ {
+     background-color: white;
+     padding:5em;
+ }
+ footer{
+    background-color:grey;
+    border: solid black;
+    margin: 0;
+    height:50vh;
+    }
+    table{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 25%;
+    }
+    td,th{
+    border: none;
+    text-align: center;
+    text-decoration: white;
+    padding:8px;
+    }
